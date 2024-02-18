@@ -43,6 +43,7 @@ const Layout = ()=>{
         </div>
         <div className="bottom">
             <TabBar onChange={(path)=>{navigate(path)}}>
+            {/* <TabBar onChange={(path)=>{navigate("notepad2_react"+path)}}> */}
             {tabs.map(item => (
                 <TabBar.Item key={item.key} icon={item.icon} title={item.title} />
             ))}
