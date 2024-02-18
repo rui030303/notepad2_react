@@ -6,7 +6,7 @@ import Month from '../pages/Month'
 
 const router = createBrowserRouter([
     {
-        path:'/',
+        path:'/notepad2_react',
         element:<Layout/>,
         children:[
             {
@@ -14,22 +14,17 @@ const router = createBrowserRouter([
                 element:<Month/>
             },
             {
-                path:'/year',
+                path:'/notepad2_react/year',
                 element:<Year/>
             },
             {
-                path:'/month',
+                path:'/notepad2_react/month',
                 element:<Month/>
             }
         ]
     },
     {
-        path:'/notepad2_react',
-        element:<Layout/>,
-        
-    },
-    {
-        path:'/new',
+        path:'/notepad2_react/new',
         element:<New/>
     }
 ])
