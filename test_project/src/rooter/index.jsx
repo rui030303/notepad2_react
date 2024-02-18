@@ -24,6 +24,11 @@ const router = createBrowserRouter([
         ]
     },
     {
+        path:'/notepad2_react',
+        element:<Layout/>,
+        
+    },
+    {
         path:'/new',
         element:<New/>
     }
