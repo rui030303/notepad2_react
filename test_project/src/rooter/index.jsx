@@ -28,6 +28,7 @@ const router = createBrowserRouter([
         element:<New/>
     }
 ],
-{basename: "/notepad2_react"})
+{basename: "/notepad2_react"}
+)
 
 export default router
